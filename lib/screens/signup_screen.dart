@@ -1,5 +1,5 @@
-import 'package:book_sharing/models/user.dart';
-import 'package:book_sharing/services/database_service.dart';
+import '../models/user.dart';
+import '../services/database_service.dart';
 
 import '../constants/constants.dart';
 import 'package:flutter/material.dart';

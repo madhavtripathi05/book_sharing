@@ -1,8 +1,8 @@
-import 'package:book_sharing/models/book.dart';
-import 'package:book_sharing/screens/dashboard.dart';
-import 'package:book_sharing/screens/login_screen.dart';
-import 'package:book_sharing/screens/signup_screen.dart';
-import 'package:book_sharing/services/database_service.dart';
+import './models/book.dart';
+import './screens/dashboard.dart';
+import './screens/login_screen.dart';
+import './screens/signup_screen.dart';
+import './services/database_service.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 

@@ -1,9 +1,8 @@
 import 'dart:io';
 
-import 'package:book_sharing/models/book.dart';
-import 'package:book_sharing/services/database_service.dart';
+import '../models/book.dart';
+import '../services/database_service.dart';
 import 'package:file_picker/file_picker.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';

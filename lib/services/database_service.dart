@@ -1,4 +1,4 @@
-import 'package:book_sharing/models/user.dart';
+import '../models/user.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import '../models/book.dart';

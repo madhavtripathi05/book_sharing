@@ -1,4 +1,4 @@
-import 'package:book_sharing/models/book.dart';
+import '../models/book.dart';
 import 'package:flutter/material.dart';
 
 class BookDescription extends StatefulWidget {
