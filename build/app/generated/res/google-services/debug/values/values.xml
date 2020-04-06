@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">904320689536-esg3i8uip5bi7q2hc9d546tl4s2rus7q.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://book-sharing-69.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">904320689536</string>
+    <string name="google_api_key" translatable="false">AIzaSyBGp3qPsDB9MJwMpFsQJnJlhhB8LSVHYy4</string>
+    <string name="google_app_id" translatable="false">1:904320689536:android:3c8a591da004a1245d4d65</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBGp3qPsDB9MJwMpFsQJnJlhhB8LSVHYy4</string>
+    <string name="google_storage_bucket" translatable="false">book-sharing-69.appspot.com</string>
+    <string name="project_id" translatable="false">book-sharing-69</string>
+</resources>

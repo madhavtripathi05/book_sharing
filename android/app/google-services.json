@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "904320689536",
+    "firebase_url": "https://book-sharing-69.firebaseio.com",
+    "project_id": "book-sharing-69",
+    "storage_bucket": "book-sharing-69.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904320689536:android:3c8a591da004a1245d4d65",
+        "android_client_info": {
+          "package_name": "com.example.book_sharing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904320689536-5tckr68vku44o7l49c5eg573sc7p9b25.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.book_sharing",
+            "certificate_hash": "cc1cd87807f4b67846349329ce27b74da8180fb1"
+          }
+        },
+        {
+          "client_id": "904320689536-esg3i8uip5bi7q2hc9d546tl4s2rus7q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGp3qPsDB9MJwMpFsQJnJlhhB8LSVHYy4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904320689536-esg3i8uip5bi7q2hc9d546tl4s2rus7q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
