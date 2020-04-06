@@ -1,0 +1,45 @@
+import 'package:book_sharing/models/book.dart';
+import 'package:book_sharing/screens/dashboard.dart';
+import 'package:book_sharing/screens/login_screen.dart';
+import 'package:book_sharing/screens/signup_screen.dart';
+import 'package:book_sharing/services/database_service.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/material.dart';
+
+import 'package:dynamic_theme/dynamic_theme.dart';
+import 'package:provider/provider.dart';
+
+void main() => runApp(MyApp());
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return DynamicTheme(
+      defaultBrightness: Brightness.light,
+      data: (brightness) => ThemeData(
+        brightness: brightness,
+        fontFamily: 'google',
+        primarySwatch: Colors.blue,
+      ),
+      themedWidgetBuilder: (context, theme) => MultiProvider(
+        providers: [
+          StreamProvider<FirebaseUser>.value(
+              value: FirebaseAuth.instance.onAuthStateChanged),
+          StreamProvider<List<Book>>.value(
+              value: DatabaseService().streamBooks()),
+        ],
+        child: MaterialApp(
+          debugShowCheckedModeBanner: false,
+          title: 'book_sharing',
+          theme: theme,
+          home: LoginScreen(),
+          routes: {
+            LoginScreen.routeName: (context) => LoginScreen(),
+            SignupScreen.routeName: (context) => SignupScreen(),
+            Dashboard.routeName: (context) => Dashboard(),
+          },
+        ),
+      ),
+    );
+  }
+}
